@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,tr,td{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+        input,select {
+            width:fit-content ;
+            box-sizing: border-box;
+        }
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+    </style>
+</head>
+<body>
+    <!-- TASK 5-->
+ <!-- REGISTARATION FORM -->
+
+  <H3>REGISTRATION FORM</H3>
+  <form>
+  <table border="2px">
+    <tr>
+        <td>First Name</td>
+        <td class="full"><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Last Name</td>
+        <td class="full"><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td class="full"><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td class="full"><input type="password"></td>
+    </tr>
+    <tr>
+        <td>Re-enter Password</td>
+        <td class="full"><input type="password"></td>
+    </tr>
+    <tr>
+        <td>Gender:</td>
+        <td class="full"><div><input type="radio" value="male" name="gender"> male</div>
+        <input type="radio" value="female" name="gender"> female</td>
+    </tr>
+    <tr>
+        <td>Age:</td>
+        <td class="full"><input type="number"></td>
+    </tr>
+    <tr>
+        <td>Phone Number:</td>
+        <td class="full"><input type="number"></td>
+    </tr>
+    <tr>
+        <td>Address:</td>
+        <td class="full"><input type="text" style="resize: both;"></td>
+    </tr>
+    <tr>
+        <td>State:</td>
+        <td class="full"><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Country</td>
+        <td class="full"><select ><option disabled selected>Choose your Country</option>
+            <option value="india">India</option>
+            <option value="Usa">USA</option></select></td>
+    </tr>
+    <tr>
+        <td>Languages known</td>
+        <td class="full" style="width: 100px ;"><input type="checkbox"> English
+            <input type="checkbox"> Kannada
+            <input type="checkbox"> Hindi
+            <input type="checkbox"> Telugu</td>
+    </tr>
+    <tr>
+        <td colspan="2" ><input type="checkbox" > Hereby I declare all the given details are true</td>
+    </tr>
+    <tr ><td colspan="2" ><div style="text-align:right;">Log in to <a href="">Ethnus</a> website</div></td></tr>
+  </table>
+  <br>
+  <div class="center" ><input type="Submit" value="Register"></div>
+
+</form>
+  
+</body>
+</html>

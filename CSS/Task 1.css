@@ -3,10 +3,87 @@ table{
     border-radius: 20px;
     background-color:rgb(121, 185, 161) ;
     width:100%;
-    margin: 30px;
 }
 th,td{
-    
     border:1px solid black;
     border-radius: 20px;
+}
+#tb{
+    border:0px;
+    margin: auto;
+    background-color:white ;
+    width:50%;
+    border-spacing: 40px;
+}
+#k1{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    margin:10px;
+    border: 4px solid rgb(127, 171, 63);
+    border-radius: 10px;
+}
+#k2{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    margin:10px;
+    border: 4px solid rgb(127, 171, 63);
+    border-radius: 10px;
+}
+#k3{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    margin:10px;
+    border: 4px solid rgb(127, 171, 63);
+    border-radius: 15px;
+}
+#k4{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    margin:10px;
+    border: 4px solid rgb(127, 171, 63);
+    border-radius: 10px;
+}
+#k5{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    margin:10px;
+    border: 4px solid rgb(127, 171, 63);
+    border-radius: 0px;
+}
+#k6{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    margin:10px;
+    border: 4px solid rgb(127, 171, 63);
+    border-radius: 20px;
+}
+#k7{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    margin:10px;
+    border: 4px solid rgb(127, 171, 63);
+    border-radius: 50%;
+}
+#k8{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    margin:10px;
+    border: 4px solid rgb(127, 171, 63);
+    border-radius: 10px;
+}
+#k9{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    margin:10px;
+    border: 4px solid rgb(127, 171, 63);
+    border-radius: 0px 20px 0px 20px;
 }

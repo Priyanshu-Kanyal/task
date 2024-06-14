@@ -1,0 +1,54 @@
+/* Vertical navigation bar */
+body{
+    font-weight: bold;
+}
+.sidebar {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    color: #fff;
+    padding: 20px;
+    font-size: large;
+    font-weight: 500;
+}
+#k{
+    background-color: rgb(204, 144, 0);
+    padding: 20px;
+    font-size: large;
+    font-weight: 500;
+    color: #fff;
+}
+.sidebar a {
+    
+    display: block;
+    color:rgb(29, 41, 158);
+    text-decoration: none;
+    background-color: rgb(139, 188, 175);
+    padding: 20px;
+    font-size: large;
+    font-weight: 500;
+    
+}
+.navbar {
+    border: 1px solid black;
+    display: flex;
+    font-weight: 500;
+    padding: 20px;
+}
+/* Horizontal navigation bar */
+.navbar a {
+    padding-right: 30px;
+    border-right:1px solid  blue;
+    background-color: darkgray;
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(5, 18, 119);
+    
+}
+#k1{
+    background-color: grey;
+    padding: 20px;
+    font-size: large;
+    font-weight: 500;
+    color: #fff;
+}
